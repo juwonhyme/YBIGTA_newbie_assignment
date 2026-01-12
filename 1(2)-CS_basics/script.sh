@@ -57,7 +57,7 @@ rm -rf .mypy_cache
 
 # conda.yml 파일 생성
 ## TODO
-conda env export > $MAIN_DIR/conda.yaml
+conda env export > $MAIN_DIR/conda.yml
 
 # 가상환경 비활성화
 ## TODO
