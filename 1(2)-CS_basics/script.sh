@@ -35,8 +35,9 @@ fi
 pip install mypy
 
 # Submission 폴더 파일 실행
-SUBMISSION_DIR="../1(1)-Python/submission"
-MAIN_DIR="../../1(2)-CS_basics"
+
+SUBMISSION_DIR="submission"
+MAIN_DIR="../"
 INPUT_DIR="$MAIN_DIR/input"
 OUTPUT_DIR="$MAIN_DIR/output"
 
@@ -52,12 +53,12 @@ done
 
 # mypy 테스트 실행 및 mypy_log.txt 저장
 ## TODO
-mypy . > $MAIN_DIR/mypy_log.txt
+mypy . > mypy_log.txt
 rm -rf .mypy_cache
 
 # conda.yml 파일 생성
 ## TODO
-conda env export > $MAIN_DIR/conda.yml
+conda env export > conda.yml
 
 # 가상환경 비활성화
 ## TODO
