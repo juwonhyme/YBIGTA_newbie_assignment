@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .vscode/
+
+/1(2)-CS_basics/input/
+/1(2)-CS_basics/output/
+/1(2)-CS_basics/submission/
